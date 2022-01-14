@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+</head> 
+<body>
+    <h2>SAVE HALO</h2>
+    <p id="myPara"></p>
+    <img id="getImage" src="jailhalo.jpg">
+    <button type="button" onclick="changeText()">click me to save halo</button>
+    <script>
+    function changeText(){
+        var element = document.getElementById("myPara");
+        element.innerHTML = "YOU SAVED HALO";
+         
+            var Image_Id = document.getElementById('getImage');
+                Image_Id.src = "halo.jpg";
+            
+    }
+    </script>
+</body>
+</html>
